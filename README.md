@@ -93,8 +93,11 @@ corResAdmix <- as.matrix(read.csv("/Users/xx/Desktop/corrs.csv", stringsAsFactor
 ##Visualization
 
 palette("default")
+
 pdf("/Users/xx/Desktop/corrs.pdf",
     width =  8, height = 7.5, paper = "special")
+    
 plotCorRes(corResAdmix, pop=pop, is.ord=T, title="", plot_legend = T, pop_labels = c(T,T),
            min_z=-0.2, max_z=0.2, cex.main=3, cex.lab=2,cex.legend=2)
+           
 dev.off() 
