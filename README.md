@@ -2,13 +2,19 @@
 Scripts used for the paper "Evaluation of model fit" 2023
 
 If you already have the data, you can skip to the methods section.
+
 ##build Q,F,PI,G for Scenario 1 and 2
+
 ##build Q1 for Scenario 1(specific for N_1,..,N_{K+1})
+
 ##build Q2 for Scenario 2(specific for N_1,..,N_{K+1})
+
 ##build F
+
 ##build PI
 
-#methods
+methods
+
 For PCA1, the main thing is to compute P_hat.
 ##Using PCA 1
 ###D_hat_M
